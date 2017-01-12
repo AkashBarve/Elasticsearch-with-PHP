@@ -18,15 +18,23 @@ Steps:
 
 7.	File structure is as follows:  
 -htdocs
+  
   -esphpsearch
+    
     -app
+      
       -init.php
+    
     -css
+      
       -add.php
       -index.php
       -main.css
+    
     -vendor
+    
     -composer.json
+    
     -composer.lock
 
 Note: Composer.lock file and vendor directory are auto created when you run composer install on cmd. Do not download them and paste them.
